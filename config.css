@@ -1,0 +1,863 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1A1851;
+}
+.left-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2vh 6vw;
+}
+.right-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2vh 6vw;
+}
+.left-icons{
+    border-right:solid 1px rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+}
+#right-icons{
+    margin:0 0.5vw;
+}
+.left-icons i{
+    margin-left: 0.5vw;
+}
+*{
+    margin:0;
+    padding:0;
+}
+p{
+    margin:0 0.5vw;
+    color:white;
+    cursor:pointer;
+}
+i{
+    cursor:pointer;
+    color:#ffffff;
+}
+.nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 2px 5px 10px #b4b4b4;
+}
+.nav-left{
+    display:flex;
+    flex-direction: row;
+    margin: 4vh 6vw;
+    
+}
+.nav-right{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 7vw;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 0 0.5vw;
+    font-size: 1.3em;
+}
+img{
+    cursor: pointer;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.banner{
+    padding:0.5em;
+}
+.sponsorship {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+.logos{
+    margin: 0 0.5vw;
+}
+.aboutustp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutustpright{
+    display: flex;
+    margin: 2vh 11vw;
+    flex-direction: column;
+}
+.aboutustpheader{
+    background-color: #1A1851;
+    color: white;
+    text-align:right;
+    padding:1vh 1vw;
+    border-radius: 10px;
+    font-size:1.5em;
+    font-weight: bold;
+}
+.body1{
+    padding: 2vh 0vw;
+    text-align: justify;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+button{
+    float:right;
+    border: none;
+    background-color: #1A1851;
+    color: rgb(240, 181, 71);
+    padding: 2vh 1vw; 
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bolder;
+    cursor:pointer;
+    box-shadow: 2px 5px 10px #b4b4b4;
+}
+button:hover {
+    background-color: rgb(240, 181, 71);
+    color: #1A1851;
+}
+.promo{
+    display: flex;
+    justify-content: center;
+    margin: 5vh 0vw;
+}
+.ustpupdates h1{
+    margin-left:11vw;
+    color: #1A1851;
+    font-weight: bold;
+    font-size: 3em;
+}
+.updateimages {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+}
+
+.updateimages .updatetop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 11vw;
+}
+
+.updateimages .updatebottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vh;
+    justify-content: space-between;
+    padding: 0 11vw;
+}
+
+.updateimages .updatetop .uimg {
+    display: flex;
+    flex-direction: column;
+    width: 18.8vw;
+}
+
+.updateimages .updatetop .uimg .img1 {
+    background-image: url("pictures/USTP-holds-orientation-on-UN-SDGs-768x768.png");
+    background-position: center;
+    background-size: cover;
+    height: 31.3vh;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+
+.updateimages .updatetop .uimg .img2 {
+    background-image: url("pictures/USTP-Panaon-DMB-conduct-study-on-mangrove-growth-and-survival-rate-768x768.png");
+    background-position: center;
+    background-size: cover;
+    height: 32vh;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+
+.updateimages .updatetop .uimg .img3 {
+    background-image: url("pictures/USTP-Jasaan-joins-125th-Philippine-Independence-Day-celebration-768x768.png");
+    background-position: center;
+    background-size: cover;
+    height: 32vh;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+
+.updateimages .updatetop .uimg .img4 {
+    background-image: url("pictures/BSMB-students-CMAS-certified-SCUBA-divers-768x768.png");
+    background-position: center;
+    background-size: cover;
+    height: 32vh;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+
+.updateimages .updatetop .uimg .text {
+    border-radius: 0 0 15px 15px;
+    padding: 1em 0.8em 2em 0.8em;
+    box-shadow: 2px 5px 10px #b4b4b4;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+
+
+.updateimages .updatebottom .uimg {
+    display: flex;
+    flex-direction: column;
+    width: 18.8vw;
+}
+
+.updateimages .updatebottom .uimg .img1 {
+    background-image: url("pictures/District-Rotary-Representative-orients-Rotaract-Club-of-USTP-Jasaan-768x768.png");
+    background-position: center;
+    background-size: cover;
+    height: 32vh;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+
+.updateimages .updatebottom .uimg .img2 {
+    background-image: url("pictures/NSTP-partakes-in-Fruit-Tree-Planting-at-Panaon-Misamis-Occidental-768x768.png");
+    background-position: center;
+    background-size: cover;
+    height: 32vh;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+
+.updateimages .updatebottom .uimg .img3 {
+    background-image: url("pictures/USTP-joins-CHED-IAS-Writeshop-for-Fostering-World-class-PH-Universities-Project-grantees-768x768.png");
+    background-position: center;
+    background-size: cover;
+    height: 32.8vh;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+
+.updateimages .updatebottom .uimg .img4 {
+    background-image: url("pictures/Rotaract-Club-officers-of-USTP-Jasaan-attend-DISCON-2023-768x768.png");
+    background-position: center;
+    background-size: cover;
+    height: 32vh;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+
+.updateimages .updatebottom .uimg .text {
+    border-radius: 0 0 15px 15px;
+    padding: 1em 0.8em 2em 0.8em;
+    box-shadow: 2px 5px 10px #b4b4b4;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buttonview {
+    display: flex;
+    justify-content:center;
+    margin-top: 1.5vh;
+    margin-bottom: 13vh;
+}
+
+.buttonview button {
+    justify-content: space-between;
+    display: flex;
+    width: 77vw;
+    background-color: #1A1851;
+    color: rgb(240, 181, 71);
+    border-radius: 3px;
+    padding: 1vh 1vw 1vh 32vw;
+    font-size: 0.8em;
+}
+
+.buttonview button:hover {
+    background-color: rgb(240, 181, 71);
+    color: #1A1851;
+}
+
+.ustpmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15vh;
+}
+
+.ustpmedia .mpane {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25vw;
+    margin: 0 0.5vw;
+}
+
+.ustpmedia .mpane .mimg1 {
+    background-image: url("pictures/USTP-STRATCOMM-Conducts-Capability-Training-768x432.png");
+    background-position: center;
+    background-size: cover;
+    height: 32vh;
+    margin-bottom: 2.5vh;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.ustpmedia .mpane .mimg2 {
+    background-image: url("pictures/Screenshot-96-768x432.png");
+    background-position: center;
+    background-size: cover;
+    height: 32vh;
+    margin-bottom: 2.5vh;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.ustpmedia .mpane .mimg3 {
+    background-image: url("pictures/9.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 32vh;
+    margin-bottom: 2.5vh;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.ustpmedia .mpane .mbut {
+    border: none;
+    background-color: #1A1851;
+    color: rgb(240, 181, 71);
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+}
+
+.ustpmedia .mpane .mbut:hover {
+    background-color: rgb(240, 181, 71);
+    color: #1A1851;
+}
+
+.prescorner {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+.prescorner .preshead {
+    width: 100%;
+    margin: 0 10.5vw;
+    background-color:#1A1851;
+    color: white;
+    text-align: right;
+    padding: 0.5em 1em 0.5em 0.5em;
+    font-size: 1.5em;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.prescornerbod { 
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding: 0 10.5vw;
+}
+
+.prescornerbod .prespane1 {
+    background-image: url("pictures/The-Presidents-Corner-Main-2048x2048.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    width: 88vw;
+    cursor: pointer;
+}
+
+.prescornerbod .prespane2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.prescornerbod .prespane3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1vh 0 5vh 0;
+}
+
+.prescornerbod .prespane2 .presaffair1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.prescornerbod .prespane2 .presaffair1 .magnified {
+    color: #1A1851;
+    font-weight: bolder;
+    font-size: 1em;
+    margin: 0 1vw 0 0;
+}
+
+.prescornerbod .prespane2 .presaffair1 .pane2img {
+    background-image: url("pictures/Screenshot-106.png");
+    background-size: cover;
+    background-position: center;
+    height: 23vh;
+    width: 18vw;
+    margin: 0 2vw 0 0;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.prescornerbod .prespane2 .presaffair1 .pane2txt {
+    font-size: 0.7em;
+    color: gray;
+    margin: 0 1vw 0 0;
+}
+
+.prescornerbod .prespane2 .presaffair2 .pane2a2img {
+    background-image: url("pictures/Virtual-Inauguration.png");
+    background-size: cover;
+    background-position: center;
+    height: 23vh;
+    width: 18vw;
+    margin: 0 2vw 0 0;
+    border-radius: 12px 12px 0 0;
+    cursor: pointer;
+}
+
+.prescornerbod .prespane2 .presaffair2 .pane2a2txt {
+    font-size: 0.6em;
+    margin: 5vh 1vw 0 0;
+}
+
+.prescornerbod .prespane3 .presimg {
+    background-image: url("pictures/ustppresident.png");
+    background-position: center;
+    background-size: cover;
+    width: 28vw;
+    height: 55vh;
+    cursor: pointer;
+}
+
+.prescornerbod .prespane3 .presbut {
+    display: flex;
+    justify-content: center;
+}
+
+.ustpsystem {
+    margin-top: 12vh;
+    font-size: 1.8em;
+    text-align: center;
+    font-weight: bold;
+    color: #1A1851;
+    padding: 2.5vh 0;
+}
+
+.maincamp {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+.maincamp .maincampus {
+    width: 100%;
+    margin: 0 10.5vw;
+    background-color:#1A1851;
+    color: white;
+    text-align: right;
+    padding: 0.5em 1em 0.5em 0.5em;
+    font-size: 1.5em;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.alubijid {
+    display: flex;
+    flex-direction: row;
+    margin: 0 11vw;
+    margin-bottom: 10vh;
+}
+
+.alubijid .aluimg {
+    background-image: url("pictures/Alubijid.png");
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 140vw;
+    border: 5px solid black;
+}
+
+.alubijid .aluwords {
+    margin: 2em 1em;
+}
+
+.alubijid .aluwords .alutitle {
+    color:#1A1851;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.alubijid .aluwords .aludesc {
+    text-align: justify;
+}
+
+.alubijid .aluwords .alubut {
+    margin-top: 5vh;
+}
+
+.alubijid .aluwords .alubut button {
+    float: left;
+    padding: 0.8em 2em;
+    font-size: 0.8em;
+}
+
+.majorcamp {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+.majorcamp .majorcampus {
+    width: 100%;
+    margin: 0 10.5vw;
+    background-color:#1A1851;
+    color: white;
+    text-align: right;
+    padding: 0.5em 1em 0.5em 0.5em;
+    font-size: 1.5em;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.cdo {
+    display: flex;
+    flex-direction: row;
+    margin: 0 11vw;
+    margin-bottom: 10vh;
+}
+
+.cdo .cdoimg {
+    background-image: url("pictures/USTP-CDO.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 55vh;
+    width: 235vw;
+    border: 5px solid black;
+}
+
+.cdo .cdowords {
+    margin: 2em 1em;
+}
+
+.cdo .cdowords .cdotitle {
+    color:#1A1851;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.cdo .cdowords .cdodesc {
+    text-align: justify;
+}
+
+.cdo .cdowords .cdobut {
+    margin-top: 5vh;
+}
+
+.cdo .cdowords .cdobut button {
+    float: left;
+    padding: 0.8em 2em;
+    font-size: 0.8em;
+    border-radius: 4px;
+    margin-right: 1vw;
+}
+
+.claveria {
+    display: flex;
+    flex-direction: row;
+    margin: 0 11vw;
+    margin-bottom: 5vh;
+}
+
+.claveria .claimg {
+    background-image: url("pictures/CLAVERIA02.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 58vh;
+    width: 140vw;
+    border: 5px solid black;
+}
+
+.claveria .clawords {
+    margin: 2em 1em;
+}
+
+.claveria .clawords .clatitle {
+    color:#1A1851;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: right;
+}
+
+.claveria .clawords .cladesc {
+    text-align: justify;
+}
+
+.claveria .clawords .clabut {
+    margin-top: 5vh;
+}
+
+.claveria .clawords .clabut button {
+    padding: 0.8em 2em;
+    font-size: 0.8em;
+    border-radius: 4px;
+    margin-left: 1vw;
+}
+
+.clientsurvey {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0;
+}
+
+.clientsurvey .survtext {
+    width: 32vw;
+    padding: 0 0.8vw 0 0;
+}
+
+.clientsurvey .survtext p {
+    font-size: 1.5em;
+    color: black;
+    cursor: text;
+    font-weight: bold;
+    margin: 0;
+}
+
+.clientsurvey .qrcode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clientsurvey .qrcode .txt1 {
+    font-weight: bold;
+}
+
+.clientsurvey .qrcode .qrlink a {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.clientsurvey .qrcode .qr {
+    background-image: url("pictures/Clientele-Service-Survey-Form-QR-CODE-300x300.png");
+    background-position: center;
+    background-size: cover;
+    width: 8vw;
+    height: 15vh;
+}
+.sitelists {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4vh 0 6vh 0;
+    background-color: rgb(247, 168, 22);
+}
+
+.sitelists .sites {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0.7vw;
+}
+
+.sitelists .sites .sitetxt {
+    font-size: 0.8em;
+    margin: 0.3vh 0;
+}
+
+.sitelists .sites .ustepimg {
+    background-image: url("pictures/ustep-logo.png");
+    background-position: center;
+    background-size: cover;
+    height: 8vh;
+    width: 6vw;
+    cursor: pointer;
+}
+
+.sitelists .sites .prismsimg {
+    background-image: url("pictures/prisms-logo.png");
+    background-position: center;
+    background-size: cover;
+    height: 8vh;
+    width: 6vw;
+    cursor: pointer;
+}
+
+.sitelists .sites .admisimg {
+    background-image: url("pictures/admissions-logo.png");
+    background-position: center;
+    background-size: cover;
+    height: 8vh;
+    width: 6vw;
+    cursor: pointer;
+}
+
+.sitelists .sites .hrisimg {
+    background-image: url("pictures/hris-logo.png");
+    background-position: center;
+    background-size: cover;
+    height: 8vh;
+    width: 6vw;
+    cursor: pointer;
+}
+
+.sitelists .sites .eclearimg {
+    background-image: url("pictures/eclearance-logo.png");
+    background-position: center;
+    background-size: cover;
+    height: 8vh;
+    width: 6vw;
+    cursor: pointer;
+}
+
+.sitelists .sites .himsimg {
+    background-image: url("pictures/hims-logo.png");
+    background-position: center;
+    background-size: cover;
+    height: 8vh;
+    width: 6vw;
+    cursor: pointer;
+}
+
+.sitelists .sites .iperfimg {
+    background-image: url("pictures/iperform-logo.png");
+    background-position: center;
+    background-size: cover;
+    height: 8vh;
+    width: 6vw;
+    cursor: pointer;
+}
+
+.sitelists .sites .helpdimg {
+    background-image: url("pictures/helpdesk-logo.png");
+    background-position: center;
+    background-size: cover;
+    height: 8vh;
+    width: 6vw;
+    cursor: pointer;
+}
+
+.sitelists .sites .bacimg {
+    background-image: url("pictures/BAC.png");
+    background-position: center;
+    background-size: cover;
+    height: 8vh;
+    width: 6vw;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #1A1851;
+    display: flex;
+    flex-direction: row;
+    padding: 12vh 18vw 7vh 18vw;
+}
+
+.footer .foottxt .rnplogo {
+    background-image: url("pictures/footlogo.png");
+    background-position: center;
+    background-size: cover;
+    width: 12vw;
+    height: 25vh;
+    cursor: pointer;
+}
+
+.footer .foottxt p {
+    font-weight: bolder;
+    font-size: 1.15em;
+    padding: 0;
+    margin: 0;
+    cursor: text;
+}
+
+.footer .foottxt {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100vw;
+    margin: 0 0.4vw;
+}
+
+.footer .foottxt .sponlogos {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .foottxt .sponlogos .frstlog {
+    background-image: url("pictures/Coat_of_arms_of_the_Philippines-pl6i72ssnd01iwbnufbmgcgvdpcrznszgh0fyzr31k.png");
+    background-position: center;
+    background-size: cover;
+    width: 5vw;
+    height: 13vh;
+    cursor: pointer;
+}
+
+.footer .foottxt .sponlogos .scndlog {
+    background-image: url("pictures/ts-oqcvloq2n7ccin6o21i2dpij79f8yurrpeictui4ja.png");
+    background-position: center;
+    background-size: cover;
+    width: 6vw;
+    height: 13vh;
+    cursor: pointer;
+}
+
+.footer .foottxt .sponlogos .thrdlog {
+    background-image: url("pictures/fio-oqcvlpnwyf9a01yocfzt5t5twdps1q72mpmcx9igd6.png");
+    background-position: center;
+    background-size: cover;
+    width: 5.5vw;
+    height: 13vh;
+    cursor: pointer;
+}
+
+.footer .foottxt .sponlogos .frthlog {
+    background-image: url("pictures/finalcharter-otsxkvcqdu0vwhcth2o2pbf7rhrlutkn3fy2p00o2g.png");
+    background-position: center;
+    background-size: cover;
+    width: 6vw;
+    height: 12vh;
+    cursor: pointer;
+}
+
+.footer .foottxt .sponlogos .lastlog {
+    background-image: url("pictures/arta-otsx08s92u3xqfl2w6g4r4zk4of6rdfkfksb35evm2.png");
+    background-position: center;
+    background-size: cover;
+    width: 10vw;
+    height: 7vh;
+    cursor: pointer;
+}
+
+.footcopyr {
+    background-color: #1A1851;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.footcopyr .line {
+    height: 0.1vh;
+    width: 60vw;
+    background-color: gray;
+}
+
+.footcopyr .copytxt {
+    padding: 4vh 1vw;
+    display: flex;
+    width: 60vw;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
